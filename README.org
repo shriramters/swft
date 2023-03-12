@@ -14,7 +14,7 @@
     The tool is currently in development and is not ready for use.
     However you can try it out by compiling the source code and running it.
 
-    #-BEGIN_EXAMPLE
+    #+BEGIN_EXAMPLE
     $ make
     $ ./swft -h
     Usage: swft [--help] [--version] [--file FILE] [--receive] [--verbose]
@@ -29,18 +29,18 @@
     --verbose    
 
     Still in development.
-    #-END_EXAMPLE
+    #+END_EXAMPLE
 
 ** Installation
    
    clone the repository and compile the source code.
-    #-BEGIN_EXAMPLE
+    #+BEGIN_EXAMPLE
     $ git clone 
     $ cd swft
     $ mkdir build && cd build
     $ cmake ..
     $ make
-    #-END_EXAMPLE
+    #+END_EXAMPLE
 
 * Dependencies
 
