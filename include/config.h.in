@@ -1,0 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-only
+// the configured options and settings for swft
+#define SWFT_VERSION_MAJOR @swft_VERSION_MAJOR@
+#define SWFT_VERSION_MINOR @swft_VERSION_MINOR@
+#define SWFT_VERSION @swft_VERSION_MAJOR@.@swft_VERSION_MINOR@

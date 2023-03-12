@@ -1,0 +1,52 @@
+#+TITLE:     swft: transfer data over sound waves
+#+AUTHOR:    ters
+#+DATE:      2023-03-12
+
+* Introduction
+    
+    Sound wave file transfer (SWFT) is a tool for transferring files over sound waves. 
+    It uses FSK at 300 baud to encode the data like a modem.
+    The tool is written in c++ and intends to be cross-platform.
+    The tool is currently in development and is not ready for use.
+
+* Usage
+
+    The tool is currently in development and is not ready for use.
+    However you can try it out by compiling the source code and running it.
+
+    #-BEGIN_EXAMPLE
+    $ make
+    $ ./swft -h
+    Usage: swft [--help] [--version] [--file FILE] [--receive] [--verbose]
+
+    Transfer files using sound waves.
+
+    Optional arguments:
+    -h, --help    shows help message and exits 
+    -v, --version prints version information and exits 
+    --file FILE   file to transmit 
+    -r, --receive receive a file 
+    --verbose    
+
+    Still in development.
+    #-END_EXAMPLE
+
+** Installation
+   
+   clone the repository and compile the source code.
+    #-BEGIN_EXAMPLE
+    $ git clone 
+    $ cd swft
+    $ mkdir build && cd build
+    $ cmake ..
+    $ make
+    #-END_EXAMPLE
+
+* Dependencies
+
+  1. [[https://github.com/p-ranav/argparse][p-ranav/argparse]]: will be downloaded automatically by cmake
+  2. [[http://doxygen.nl/][doxygen]]: (optional) for generating documentation
+
+* Known issues
+
+  - None

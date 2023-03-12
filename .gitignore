@@ -1,0 +1,10 @@
+# build folder
+build/
+# ide configuration files
+.vscode/
+# docs
+docs/
+# emacs backup files
+*~
+# vim backup files
+*.swp
